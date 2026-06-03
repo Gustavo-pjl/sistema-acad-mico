@@ -6,8 +6,7 @@
 
 O sistema tem como objetivo auxiliar estudantes no gerenciamento,
 organização e acompanhamento de suas atividades acadêmicas,
-oferecendo ferramentas de produtividade, monitoramento de desempenho
-e gamificação através de rankings e estatísticas.
+oferecendo ferramentas de produtividade e monitoramento de desempenho e estatísticas.
 
 ---
 
@@ -15,8 +14,7 @@ e gamificação através de rankings e estatísticas.
 
 Desenvolver uma plataforma capaz de oferecer ferramentas de
 organização acadêmica, acompanhamento de progresso e incentivo
-à constância nos estudos através de métricas, rankings de desempenho
-e interação entre usuários.
+à constância nos estudos através de estatísticas de estudo.
 
 ---
 
@@ -24,7 +22,6 @@ e interação entre usuários.
 
 - Administrador
 - Usuário comum
-- Moderador
 
 ---
 
@@ -33,29 +30,14 @@ e interação entre usuários.
 | Código | Descrição |
 |---|---|
 | RF01 | O sistema deve permitir cadastro e autenticação de usuários |
-| RF02 | O sistema deve permitir gerenciamento do perfil do usuário |
-| RF03 | O sistema deve permitir gerenciamento de disciplinas acadêmicas |
-| RF04 | O sistema deve permitir gerenciamento de tarefas acadêmicas |
-| RF05 | O sistema deve permitir registro e gerenciamento de sprints de estudo |
-| RF06 | O sistema deve associar sprints às disciplinas cadastradas |
-| RF07 | O sistema deve apresentar estatísticas de estudo do usuário |
-| RF08 | O sistema deve exibir progresso acadêmico por disciplina |
-| RF09 | O sistema deve calcular e exibir streaks de estudo consecutivos |
-| RF10 | O sistema deve apresentar gráficos e indicadores de desempenho acadêmico |
-| RF11 | O sistema deve calcular pontuações com base nas atividades registradas |
-| RF12 | O sistema deve exibir rankings de desempenho entre usuários |
-| RF13 | O sistema deve atualizar automaticamente rankings e estatísticas após registros de estudo |
-| RF14 | O sistema deve permitir gerenciamento de amizades entre usuários |
-| RF15 | O sistema deve exibir um feed com atividades de amigos |
-| RF16 | O sistema deve permitir interações através de curtidas e comentários em postagens |
-| RF17 | O sistema deve permitir criação e gerenciamento de comunidades |
-| RF18 | O sistema deve permitir participação de usuários em comunidades |
-| RF19 | O sistema deve exibir feeds de comunidades |
-| RF20 | O sistema deve exibir rankings dentro das comunidades |
-| RF21 | O sistema deve permitir busca de usuários e comunidades |
-| RF22 | O sistema deve permitir navegação entre dashboard, perfil, feed e comunidades |
-| RF23 | O sistema deve restringir funcionalidades privadas a usuários autenticados |
-| RF24 | O sistema deve garantir que apenas autores possam editar ou remover seus conteúdos |
+| RF02 | O sistema deve permitir gerenciamento de disciplinas acadêmicas |
+| RF03 | O sistema deve permitir gerenciamento de tarefas acadêmicas |
+| RF04 | O sistema deve permitir registro e gerenciamento de sprints de estudo |
+| RF05 | O sistema deve associar sprints às disciplinas cadastradas |
+| RF06 | O sistema deve apresentar estatísticas de estudo do usuário |
+| RF07 | O sistema deve exibir estatísticas por disciplina |
+| RF08 | O sistema deve calcular e exibir streaks de estudo consecutivos |
+| RF09 | O sistema deve apresentar gráficos e indicadores de desempenho acadêmico |
 
 ---
 
@@ -79,12 +61,8 @@ e interação entre usuários.
 |---|---|
 | RN01 | Cada usuário deve possuir um email único |
 | RN02 | Apenas administradores podem remover usuários |
-| RN03 | Rankings devem ser atualizados automaticamente após registros de estudo |
-| RN04 | Cada sprint deve estar associado a uma disciplina |
-| RN05 | O sistema deve contabilizar horas estudadas para cálculo de desempenho |
-| RN06 | Streaks devem ser incrementados apenas quando houver atividade diária registrada |
-| RN07 | Usuários só podem editar ou remover conteúdos de sua autoria |
-| RN08 | Rankings das comunidades devem considerar apenas membros participantes |
+| RN03 | O sistema deve contabilizar horas estudadas para cálculo de desempenho |
+| RN04 | Streaks devem ser incrementados apenas quando houver atividade diária registrada |
 
 ---
 
