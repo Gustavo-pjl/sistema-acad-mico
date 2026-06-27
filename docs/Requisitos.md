@@ -20,7 +20,6 @@ organização acadêmica, acompanhamento de progresso e incentivo
 
 ## 3. Usuários do Sistema
 
-- Administrador
 - Usuário comum
 
 ---
@@ -29,15 +28,17 @@ organização acadêmica, acompanhamento de progresso e incentivo
 
 | Código | Descrição |
 |---|---|
-| RF01 | O sistema deve permitir cadastro e autenticação de usuários |
-| RF02 | O sistema deve permitir gerenciamento de disciplinas acadêmicas |
-| RF03 | O sistema deve permitir gerenciamento de tarefas acadêmicas |
-| RF04 | O sistema deve permitir registro e gerenciamento de sprints de estudo |
-| RF05 | O sistema deve associar sprints às disciplinas cadastradas |
-| RF06 | O sistema deve apresentar estatísticas de estudo do usuário |
-| RF07 | O sistema deve exibir estatísticas por disciplina |
-| RF08 | O sistema deve calcular e exibir streaks de estudo consecutivos |
-| RF09 | O sistema deve apresentar gráficos e indicadores de desempenho acadêmico |
+| RF01 | O sistema deve permitir cadastro de usuários |
+| RF02 | O sistema deve permitir a autenticação de usuários
+| RF03 | O sistema deve permitir gerenciamento de disciplinas acadêmicas |
+| RF04 | O sistema deve permitir gerenciamento de tarefas acadêmicas |
+| RF05 | O sistema deve permitir registro e gerenciamento de sprints de estudo |
+| RF06 | O sistema deve associar sprints às disciplinas cadastradas |
+| RF07 | O sistema deve apresentar estatísticas de estudo do usuário |
+| RF08 | O sistema deve exibir estatísticas por disciplina |
+| RF09 | O sistema deve permitir que o usuário configure sua meta diária e semanal de estudo
+| RF10 | O sistema deve calcular e exibir streaks de metas de estudo cumpridas consecutivas |
+| RF11 | O sistema deve apresentar gráficos e indicadores de desempenho acadêmico |
 
 ---
 
@@ -60,9 +61,9 @@ organização acadêmica, acompanhamento de progresso e incentivo
 | Código | Regra |
 |---|---|
 | RN01 | Cada usuário deve possuir um email único |
-| RN02 | Apenas administradores podem remover usuários |
-| RN03 | O sistema deve contabilizar horas estudadas para cálculo de desempenho |
-| RN04 | Streaks devem ser incrementados apenas quando houver atividade diária registrada |
+| RN02 | O total de horas estudadas é calculado somando a duração de todos os sprints concluídos pelo usuário |
+| RN03 | O streak é incrementado quando o total de minutos estudados no dia atinge ou supera a meta diária configurada pelo usuário |
+| RN04 | Enquanto o usuário não configurar sua meta, o streak não é calculado e exibe o estado 'meta não definida
 
 ---
 
